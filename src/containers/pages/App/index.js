@@ -13,9 +13,9 @@ function App() {
    <Router>
      <div>
        
-        <Route path="/" exact component={Dashboard} />
+        <Route path="/" component={Dashboard} />
         <Route path="/" component={Login} />
-        <Route path="/" component={Register} />
+        <Route path="/" exact component={Register} />
         </div>
    </Router>
    
