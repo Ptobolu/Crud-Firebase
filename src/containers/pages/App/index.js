@@ -14,8 +14,8 @@ function App() {
      <div>
        
         <Route path="/" component={Dashboard} />
-        <Route path="/" component={Login} />
-        <Route path="/" exact component={Register} />
+        {/* <Route path="/" component={Login} />
+        <Route path="/" exact component={Register} /> */}
         </div>
    </Router>
    

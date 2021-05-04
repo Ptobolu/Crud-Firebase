@@ -90,7 +90,7 @@ const Dashboard = () => {
                     onChange={(e) => setPrice(e.target.value)}
                     />
                     <br />
-                    <button className="btn btn-primary" onClick={onSubmit}>
+                    <button className="btn btn-info" onClick={onSubmit}>
                     {button}
                     </button>
                     { button === "Update" && (
@@ -113,7 +113,7 @@ const Dashboard = () => {
                                 <td>{item.price}</td>
                                 <td>
                                     <button 
-                                    className="btn btn-succses" 
+                                    className="btn btn-warning" 
                                     onClick={() => onUpadateData(item)}>Update</button>
                                     <button className="btn btn-danger"
                                     onClick={() => onDeleteData(item)}>Delete</button>
